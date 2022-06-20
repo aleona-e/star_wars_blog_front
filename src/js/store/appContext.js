@@ -39,7 +39,7 @@ const injectContext = PassedComponent => {
 		return (
 			<Context.Provider value={state}>
 				<PassedComponent {...props} />
-			</Context.Provider>
+			</Context.Provider> 
 		);
 	};
 	return StoreWrapper;

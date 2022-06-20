@@ -1,3 +1,14 @@
-/* 
-    General Styles
-*/
+div.scrollmenu {
+    background-color: rgb(244, 244, 237);
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+.card {
+      display: inline-block
+  }
+.sectionImage {
+    height: 300px;
+    width: 250px;
+
+}
